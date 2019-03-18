@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_sagit.mk
+    $(LOCAL_DIR)/carbon_sagit.mk
