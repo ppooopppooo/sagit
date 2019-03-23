@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := sagit
 
 # LCD Density
 PRODUCT_GENERIC_PROPERTIES += \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=428
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
