@@ -41,9 +41,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -53,6 +50,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
+
+# Miui Camera
+$(call inherit-product, vendor/XiaomiCustom/MiuiCamera/MiuiCamera.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
