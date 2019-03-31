@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_sagit.mk
+    $(LOCAL_DIR)/syberia_sagit.mk
