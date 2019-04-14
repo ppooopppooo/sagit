@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_sagit.mk
+    $(LOCAL_DIR)/bootleg_sagit.mk
