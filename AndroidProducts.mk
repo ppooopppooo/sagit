@@ -15,8 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-<<<<<<< HEAD
-    $(LOCAL_DIR)/arrow_sagit.mk
-=======
     $(LOCAL_DIR)/syberia_sagit.mk
->>>>>>> parent of d3f7ce9... Update AndroidProducts.mk
