@@ -29,6 +29,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
+
 PRODUCT_NAME := syberia_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
